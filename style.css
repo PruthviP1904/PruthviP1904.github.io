@@ -1,0 +1,117 @@
+#title {
+
+  background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('title.jpg');
+  background-size: 1440px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title-para {
+  color: #fff;
+  font-size: 32px;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+body {
+  font-family: Montserrat;
+}
+ .row{
+color: white;
+ }
+
+/* navigation-bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+  .Download-Button {
+    margin: 5% 3% 5% 0%;
+    font-size: 32px;
+  }
+   
+
+.profile {
+  width: 100%;
+  right: 70%;
+}
+/* 
+  features section */
+
+#features {
+  padding: 7% 15%;
+   background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('poor.jpg');
+background-size: 1920px; 
+  position: relative;
+
+  /* z-index: 1; */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+
+}
+
+/* h3{
+      font-family: Montserrat-Bold;
+      font-size: 1.5rem;
+  } */
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: white;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: grey;
+}
+
+/* footer section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('disabled.jpeg');
+  background-size: 800px 480px;
+}
+.social-icon {
+  margin: 50px 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .profile {
+    position: static;
+    /* transform: rotate(0deg); */
+  }
+}
