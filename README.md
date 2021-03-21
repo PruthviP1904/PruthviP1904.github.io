@@ -5,3 +5,4 @@ Payment Gateway Integration
 ◇ Once the payment is done and invoice will be generated and email will be sent to the user for the payment received. The invoice will contain the amount. 
 ◇ On any page / email, only basic information is needed.
 Hosted on github pages.
+Webiste link: https://pruthvip1904.github.io/
